@@ -172,60 +172,83 @@
             
         </main>
         <footer class="footer">            
-            <div class="container footer-wrap">
-                <div>
-                    <div class="footer-logo">
-                        <a class="logo-Web" href="./index.html">Web<span class="logo-Studio-footer">Studio</span></a>
+            <div class="container footer__wrap">
+                <div class="footer__nav">
+                    <div class="footer__logo logotype">
+                        <a class="logotype__Web" href="./index.html">Web<span class="logotype__Studio">Studio</span></a>
                     </div>                
                     
-                    <ul class="footer-items">
+                    <ul class="address">
 
-                        <li class="footer-nav">
-                            <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+                        <li class="address__items">
+                            <p class="address__location">м. Київ, пр-т Лесі Українки, 26</p>
                         </li>
-                        <li class="footer-nav">
-                            <a class="footer-mail" href="#" target="_blank" rel="noopener noreferrer">info@devstudio.com</a> 
+                        <li class="address__items">
+                            <a class="address__mail" href="#" target="_blank" rel="noopener noreferrer">info@devstudio.com</a> 
                         </li>
                         <li>
-                            <a class="footer-tel" href="tel:+380961111111">+380961111111</a>
+                            <a class="address__tel" href="tel:+380961111111">+380961111111</a>
                         </li>
                     </ul>
                 </div>
 
-                <div class="footer-soc"> 
-                    <h3 class="foter-par">ПРИЄДНУЙТЕСЬ</h3>                   
-                    <ul class="footer-soc-list">
-                        <li class="footer-soc-items">
-                            <a class="footer-soc-link" href="#">
-                                <svg class="footer-soc-icons" widht="20" height="20">
+                <div class="social"> 
+                    <h3 class="social__par">ПРИЄДНУЙТЕСЬ</h3>                   
+                    <ul class="platforms">
+                        <li class="platforms__items">
+                            <a class="platforms__link" href="#">
+                                <svg class="platforms__icons" width="20" height="20">
                                     <use href="./images/icons.svg#icon-instagram-2"></use>
                                 </svg>
                             </a>                                        
                         </li>
-                        <li class="footer-soc-items">
-                            <a class="footer-soc-link" href="#">
-                                <svg class="footer-soc-icons" widht="20" height="20">
+                        <li class="platforms__items">
+                            <a class="platforms__link" href="#">
+                                <svg class="platforms__icons" width="20" height="20">
                                     <use href="./images/icons.svg#icon-twitter-1"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-soc-items">
-                            <a class="footer-soc-link" href="#">
-                                <svg class="footer-soc-icons" widht="20" height="20">
+                        <li class="platforms__items">
+                            <a class="platforms__link" href="#">
+                                <svg class="platforms__icons" width="20" height="20">
                                     <use href="./images/icons.svg#icon-facebook-1"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li class="footer-soc-items">
-                            <a class="footer-soc-link" href="#">
-                                <svg class="footer-soc-icons" widht="20" height="20">
+                        <li class="platforms__items">
+                            <a class="platforms__link" href="#">
+                                <svg class="platforms__icons" width="20" height="20">
                                     <use href="./images/icons.svg#icon-linkedin-1"></use>
                                 </svg>
                             </a>
                         </li>                                    
                     </ul>
+                </div>                    
+
+                <div class="subscription">
+                    <h3 class="subscription__text">ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+                    <form class="subscription__form">                       
+                        
+                        <div class="sub-input">                            
+                            <input 
+                                type="email" 
+                                name="user-email" 
+                                class="sub-input__data" 
+                                placeholder="E-mail"
+                                required
+                                id="user-email"
+                            />                            
+                        </div>   
+                        
+                        <button class="sub-btn" type="submit">Підписатися
+                            <svg class="sub-btn__icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
                 </div>
-            </div> 
+            </div>       
             
         </footer>
     </body>

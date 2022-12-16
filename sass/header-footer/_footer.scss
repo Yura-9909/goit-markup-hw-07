@@ -6,38 +6,51 @@
     padding-top: 60px;
 }
 
-.footer-container{
+.footer__nav{
     padding-right: 70px;
 }
 
-.footer-wrap{
+.footer__wrap{
     display: flex;    
 }
 
-.footer-logo{   
+
+
+.footer__logo{   
     margin-bottom: 20px;  
 }
-
-.logo-Studio-footer{
+.logotype__Web{
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.3076;
+    font-family: 'Raleway';    
+}
+.logotype__Studio {
     color: #FFFFFF;
     font-size: 26px;
     line-height: 1.192;
     letter-spacing: 0.03em;
 }
 
-.address{    
+
+
+
+.address{
+    list-style: none;    
+}
+.address__location{    
     font-size: 14px;      
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 9px;
     line-height: 1.714;
-    }
-
-.footer-items{
-    list-style: none;    
 }
-
-.footer-mail{   
+.address__items{
+    margin-bottom: 9px;
+} 
+.address__mail{   
     font-size: 14px;
     line-height: 1.714;      
     letter-spacing: 0.03em;    
@@ -49,8 +62,7 @@
     &:focus{color: var(--blue-color);}
    &:active{color: #000;}
 }
-
-.footer-tel{   
+.address__tel{   
     font-size: 14px;
     line-height: 1.714;      
     letter-spacing: 0.03em;    
@@ -63,34 +75,28 @@
 }
 
 
-.footer-nav{
-    margin-bottom: 9px;
-} 
 
-.footer-soc{
+
+.social{
     padding-top: 12px;
     padding-right: 93px;
 }
-
-.foter-par{
+.social__par{
     font-size: 14px;
     line-height: 1.142;      
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-
-.footer-soc-list{
+.platforms{
     display: flex;    
     gap: 10px;        
 }
-
-.footer-soc-items{
+.platforms__items{
     width: 44px;
     height: 44px;
 }
-
-.footer-soc-link{
+.platforms__link{
     width: 100%;
     height: 100%;    
     background-color: rgba(255, 255, 255, 0.1);
@@ -102,31 +108,33 @@
     &:hover{background-color: var(--blue-color);}
     &:focus{background-color: var(--blue-color);}    
 }
-
-.footer-soc-icons{
+.platforms__icons{
     fill: #FFFFFF; 
     .footer-soc-link:hover &{fill: #FFFFFF;} 
     .footer-soc-link:focus &{fill: #FFFFFF;}     
 }
 
-.footer-sub{
+
+
+
+
+
+
+.subscription{
     padding-top: 20px;  
 }
-
-.sub-text{
+.subscription__text{
     font-size: 14px;
     line-height: 1.142;      
     letter-spacing: 0.03em;
     color: #FFFFFF;   
     margin-bottom: 20px; 
 }
-
-.footer-form{
+.subscription__form{
     display: flex;
     gap: 12px;
 }
-
-.footer-input{
+.sub-input__data{
     width: 358px;
     height: 50px;
     background-color: transparent;
@@ -136,8 +144,7 @@
     color: rgba(255, 255, 255, 0.6); 
     padding-left: 16px; 
 }
-
-.footer-btn-sub{
+.sub-btn{
     font-family: inherit;    
     font-size: 16px;
     line-height: 1.875;
@@ -150,8 +157,7 @@
     border: transparent; 
     font-weight: 700;  
 }
-
-.footer-btn-icons{
+.sub-btn__icons{
     margin-left: 10px;  
     transform: translateY(25%);  
 }

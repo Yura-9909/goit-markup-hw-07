@@ -25,6 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    &:hover{border-color: var(--blue-color);}
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)    
 }
@@ -32,7 +33,7 @@
 .visitors-icons{
     fill: rgb(175,177,184);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover{border-color: var(--blue-color);}
+    
     .visitors-link:hover &{fill: var(--blue-color);}
     .visitors-link:focus &{fill: var(--blue-color);}
 }
